@@ -1,0 +1,234 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// }
+	    {
+            "path" : "pages/home/home",
+            "style" : {
+				"navigationBarBackgroundColor": "#212825",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/sort/sort",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarBackgroundColor": "#F1ECE7",
+				"navigationStyle": "custom",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+		,{
+            "path" : "pages/sort/product/product",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+		,{
+		    "path" : "pages/sort/detail/detail",
+		    "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationStyle": "custom",
+				"h5":{
+					"titleNView":false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/sort/pay/pay",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationStyle":"custom",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/sort/address/address",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationStyle":"custom",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/find/article/article",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "购物车"
+				// "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/user/collect/collect",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "收藏"
+			}
+        }
+        ,{
+            "path" : "pages/user/applySale/applySale",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "申请售后"
+			}
+        }
+        ,{
+            "path" : "pages/user/article/article",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "文章"
+			}
+        }
+        ,{
+            "path" : "pages/user/brand/brand",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "品牌"
+			}
+        }
+        ,{
+            "path" : "pages/user/card/card",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "卡包"
+			}
+        }
+        ,{
+            "path" : "pages/user/safe/safe",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "账户与安全"
+			}
+        }
+        ,{
+            "path" : "pages/user/about/about",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": ""
+				// "h5":{
+				// 	"titleNView":false
+				// }
+			}
+        }
+        ,{
+            "path" : "pages/user/orderList/orderList",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": "订单列表"
+			}
+        }
+        ,{
+            "path" : "pages/user/regist/regist",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationStyle": "custom",
+				"h5":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/login/login",
+            "style" : {
+				"navigationBarBackgroundColor": "#F1ECE7",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/user/regist/next/next",
+            "style" : {
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarBackgroundColor": "#F1ECE7",
+				"navigationBarTitleText": ""
+			}
+        }
+    ],
+	"tabBar": {
+	    "color": "#999999",
+	    "selectedColor": "#3D4C46",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png",
+				"text": "首页"
+			}, 
+			{
+				"pagePath": "pages/sort/sort",
+				"iconPath": "static/icons/kind.png",
+				"selectedIconPath": "static/icons/kind-active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"iconPath": "static/icons/find.png",
+				"selectedIconPath": "static/icons/find-active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icons/mine.png",
+				"selectedIconPath": "static/icons/mine-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "乐居",
+		"navigationBarBackgroundColor": "#5D4E49",
+		"backgroundColor": "#F1ECE7",
+		"enablePullDownRefresh": true
+	}
+}

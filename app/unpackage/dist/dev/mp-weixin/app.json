@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/sort/sort",
+    "pages/find/find",
+    "pages/user/user",
+    "pages/sort/product/product",
+    "pages/sort/detail/detail",
+    "pages/sort/pay/pay",
+    "pages/sort/address/address",
+    "pages/find/article/article",
+    "pages/shop/shop",
+    "pages/user/collect/collect",
+    "pages/user/applySale/applySale",
+    "pages/user/article/article",
+    "pages/user/brand/brand",
+    "pages/user/card/card",
+    "pages/user/safe/safe",
+    "pages/user/about/about",
+    "pages/user/orderList/orderList",
+    "pages/user/regist/regist",
+    "pages/user/login/login",
+    "pages/user/regist/next/next",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "乐居",
+    "navigationBarBackgroundColor": "#5D4E49",
+    "backgroundColor": "#F1ECE7",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3D4C46",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "iconPath": "static/icons/kind.png",
+        "selectedIconPath": "static/icons/kind-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/icons/find.png",
+        "selectedIconPath": "static/icons/find-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap0.json"
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#354E44",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "v-tabs": "/components/v-tabs/v-tabs"
+  }
+}

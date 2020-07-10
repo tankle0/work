@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#354E44",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "w-input": "/components/watch-login/watch-input"
+  }
+}
